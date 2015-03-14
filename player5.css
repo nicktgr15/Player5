@@ -23,8 +23,14 @@
 }
 
 #player5 #progress-bar{
-    height:3px;
+    height:6px;
     background-color:rgba(80, 80, 80, .9);
+}
+
+#player5 #progress {
+    background-color:rgb(200, 0, 0);
+    height: 6px;
+    width: 0px;
 }
 
 #player5 #controls-bar{
@@ -56,4 +62,23 @@
 
 #player5 #time {
     font-weight:bold;
+}
+
+#player5 #volume-bar-container{
+    height:35px;
+    width:70px;
+    cursor: pointer;
+}
+
+#player5 #volume-bar-click-area{
+    width:70px;
+    height:5px;
+    background-color:rgb(80, 80, 80);
+    margin-top:15px;
+}
+
+#player5 #volume-bar{
+    height:5px;
+    background-color:rgb(200, 0, 0);
+    width:0px;
 }
