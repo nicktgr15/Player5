@@ -109,12 +109,12 @@
 
 #player5 #menu-popup {
     display: none;
-    background: rgba(40, 40, 40, .9);
+    background: rgba(40, 40, 40, .6);
     position:absolute;
     bottom:43px;
     font-size:13px;
     line-height: 20px;
-    padding:10px;
+    padding:5px;
     color:#ccc;
     right:10px;
 }
