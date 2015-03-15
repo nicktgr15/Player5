@@ -23,13 +23,14 @@
 }
 
 #player5 #progress-bar{
-    height:6px;
+    height:8px;
     background-color:rgba(80, 80, 80, .9);
+    position:relative;
 }
 
 #player5 #progress {
     background-color:rgb(180, 0, 0);
-    height: 6px;
+    height: 8px;
     width: 0px;
 }
 
@@ -38,7 +39,7 @@
     background-color:#000;
     background: rgba(20, 20, 20, .5);
     height:35px;
-    color: #777;
+    color: #ccc;
     font-size:14px;
     font-family: arial;
 }
@@ -57,6 +58,11 @@
 }
 
 #player5 #fullscreen-button {
+    float:right;
+    line-height:35px;
+}
+
+#player5 #menu-button{
     float:right;
     line-height:35px;
 }
@@ -84,4 +90,54 @@
     height:5px;
     background-color:rgb(180, 0, 0);
     width:0px;
+}
+
+#player5 #current-time-popup{
+    display:none;
+    background: rgba(40, 40, 40, .9);
+    width:60px;
+    height:20px;
+    position:absolute;
+    bottom:12px;
+    color:#ccc;
+    font-family: arial;
+    font-size:12px;
+    text-align:center;
+    line-height:20px;
+    z-index:100;
+}
+
+#player5 #menu-popup {
+    display: none;
+    background: rgba(40, 40, 40, .9);
+    position:absolute;
+    bottom:43px;
+    font-size:13px;
+    line-height: 20px;
+    padding:10px;
+    color:#ccc;
+    right:10px;
+}
+
+#player5 #menu-popup table{
+    font-size:12px;
+    color:#ccc;
+}
+
+#player5 #menu-popup span{
+    background-color:#ccc;
+    color:#222;
+    margin-left:4px;
+    margin-right:4px;
+    padding:2px 4px 2px 4px;
+    font-size:12px;
+}
+
+#player5 #menu-popup span.set-source {
+    cursor:pointer;
+}
+
+#player5 #menu-popup span.selected-source {
+    background-color: #555;
+    color:#ccc;
 }
