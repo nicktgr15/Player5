@@ -28,7 +28,7 @@
 }
 
 #player5 #progress {
-    background-color:rgb(200, 0, 0);
+    background-color:rgb(180, 0, 0);
     height: 6px;
     width: 0px;
 }
@@ -39,7 +39,8 @@
     background: rgba(20, 20, 20, .5);
     height:35px;
     color: #777;
-    font-size:15px;
+    font-size:14px;
+    font-family: arial;
 }
 
 #player5 .control-bar-el {
@@ -61,17 +62,19 @@
 }
 
 #player5 #time {
-    font-weight:bold;
+
+}
+
+#player5 #volume-icon{
 }
 
 #player5 #volume-bar-container{
     height:35px;
-    width:70px;
+    width:60px;
     cursor: pointer;
 }
 
 #player5 #volume-bar-click-area{
-    width:70px;
     height:5px;
     background-color:rgb(80, 80, 80);
     margin-top:15px;
@@ -79,6 +82,6 @@
 
 #player5 #volume-bar{
     height:5px;
-    background-color:rgb(200, 0, 0);
+    background-color:rgb(180, 0, 0);
     width:0px;
 }
