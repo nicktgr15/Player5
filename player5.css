@@ -22,6 +22,12 @@
     position:relative;
 }
 
+#player5 #waveform-bar{
+    height:40px;
+    background-color:rgba(30, 30, 30, .9);
+    position:relative;
+}
+
 #player5 #progress-bar{
     height:8px;
     background-color:rgba(80, 80, 80, .9);
@@ -31,6 +37,13 @@
 #player5 #progress {
     background-color:rgb(180, 0, 0);
     height: 8px;
+    width: 0px;
+}
+
+#player5 #waveform-progress {
+    position:absolute;
+    background-color:rgba(80, 80, 80, .5);
+    height: 40px;
     width: 0px;
 }
 
